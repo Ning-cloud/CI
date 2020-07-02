@@ -1,4 +1,4 @@
-package com.jerome.learning;
+ package com.jerome.learning;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -21,7 +21,7 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		resp.setContentType("text/html");
 		PrintWriter pw = resp.getWriter();
-		pw.write("<h1>Hello, world!</h1>");
+		pw.write("<h1>Hello, Bob!</h1>");
 		pw.flush();
 	}
 }
